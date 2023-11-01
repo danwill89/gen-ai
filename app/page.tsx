@@ -5,5 +5,5 @@ export default function Home() {
     <>
       <Card name="John Doe" age={30} />
     </>
-  )
+  );
 }
