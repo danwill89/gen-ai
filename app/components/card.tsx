@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from "../styles/card.module.scss";
 
 interface CardProps {
@@ -16,5 +17,7 @@ const Card = ({ name, age }: CardProps) => {
     </section>
   );
 };
+  const getNameLength = (name: string) => name.length;
+      <p>Name Length: {getNameLength(name)}</p>
 
 export default Card;
