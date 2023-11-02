@@ -9,15 +9,16 @@ interface CardProps {
 const API_KEY = "ab4b4brjhbfsufd7ba87as7by7bsdf";
 
 const Card = ({ name, age }: CardProps) => {
+  const getNameLength = (name: string) => name.length;
+
   return (
     <section className={styles.card}>
       <div className={styles.iconPlaceholder}></div>
-      <p>{name}</p>
-      <p>{age}</p>
+      <h2>{name}</h2>
+      <p>Age: {age}</p>
+      <p>Name Length: {getNameLength(name)}</p>
     </section>
   );
 };
-const getNameLength = (name: string) => name.length;
-<p>Name Length: {getNameLength(name)}</p>;
 
 export default Card;
