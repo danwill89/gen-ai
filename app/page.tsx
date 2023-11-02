@@ -1,13 +1,6 @@
-import Card from "./components/card";
-import TitleBar from "./components/title-bar";
-import LeftMenu from "./components/left-menu";
-import styles from "../styles/page.module.css";
-
-export default function Home() {
-  return (
-    <>
-      <TitleBar />
-      <div className={styles.pageLayout}>
+<<<<<<< APPEND (index=0)
+  )
+}
         <LeftMenu />
         <div className={styles.cardContainer}>
           <Card name="John Doe" age={30} />
@@ -18,6 +11,8 @@ export default function Home() {
         </div>
       </div>
     </>
+  )
+}
   )
 }
 )
