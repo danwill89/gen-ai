@@ -1,5 +1,5 @@
 import React from "react";
-import "../globals.css";
+import "./left-menu.css";
 
 const LeftMenu: React.FC = () => {
   return (
@@ -22,22 +22,3 @@ const LeftMenu: React.FC = () => {
 
 export default LeftMenu;
 // Removed invalid tags
-.left-menu {
-  background-color: lightgrey;
-  height: 100vh;
-  width: 200px;
-  position: fixed;
-}
-
-.menu-item {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-
-.icon-placeholder {
-  height: 20px;
-  width: 20px;
-  background-color: grey;
-  margin-right: 10px;
-}
