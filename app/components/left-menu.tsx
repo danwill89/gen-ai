@@ -21,9 +21,7 @@ const LeftMenu: React.FC = () => {
 };
 
 export default LeftMenu;
-</new_file>
-
-<new_file file_path="app/globals.css">
+// Removed invalid tags
 .left-menu {
   background-color: lightgrey;
   height: 100vh;
