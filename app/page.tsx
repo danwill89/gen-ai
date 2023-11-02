@@ -20,6 +20,7 @@ export default function Home() {
     </>
   )
 }
+}
     <>
       <TitleBar />
       <div className={styles.pageLayout}>
