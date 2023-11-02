@@ -1,9 +1,6 @@
 import Card from "./components/card";
 import TitleBar from "./components/title-bar";
-import LeftMenu from "./components/left-menu";
-import styles from "./page.module.css";
-
-export default function Home() {
+export default function Home({ LeftMenu, styles }) {
   return (
     <>
       <TitleBar />
