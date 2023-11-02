@@ -22,4 +22,5 @@
     "eslint-config-next": "14.0.1",
     "typescript": "^5"
   }
+    "@testing-library/react": "^13.0.0"
 }
