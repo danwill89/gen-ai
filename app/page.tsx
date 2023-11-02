@@ -24,6 +24,11 @@ export default function Home() {
 import Card from "./components/card";
 import TitleBar from "./components/title-bar";
 import LeftMenu from "./components/left-menu";
+  )
+}
+=======
+  )
+}
 import styles from "../styles/page.module.css";
 
 export default function Home() {
